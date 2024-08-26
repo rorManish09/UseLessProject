@@ -11,7 +11,7 @@ header{
     position: relative;
 box-sizing: border-box;
     display: flex;
-    border: 1px solid red;
+   
     padding: 2px;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@ box-sizing: border-box;
 .container{
     position: relative;
     display: flex;
-    border: 1px solid rgb(228, 210, 210);
+   
     padding: 2px;
     align-items: center;
     justify-content: center;
@@ -33,8 +33,7 @@ box-sizing: border-box;
 
     position: relative;
     display: flex;
-    border: 1px solid rgb(20, 151, 110);
-    padding: 12px;
+    
     
     width: 70%;
     align-items: center;
@@ -45,7 +44,7 @@ box-sizing: border-box;
 .site-logo{
     position: absolute;
     display: inline;
-    border:1px solid rgb(134, 189, 71);
+   
     left: 0;
     
     
@@ -54,7 +53,7 @@ box-sizing: border-box;
 .link-component{
     position: absolute;
     display: block;
-    border:1px solid rgb(134, 189, 71);
+    
     right: 10%;
     
 }
@@ -81,7 +80,7 @@ box-sizing: border-box;
     
     display: flex;
     padding: 5px;
-    border: 1px solid rgb(21, 108, 15);
+
     margin-top: 50px;
     margin-bottom: 50px;
    
@@ -91,7 +90,7 @@ box-sizing: border-box;
 .columns{
 
     display: flex;
-    border: 1px solid white;
+    
      flex-direction: column;
      margin: 80px;
     
@@ -110,7 +109,7 @@ box-sizing: border-box;
 .coly{
 
     display: inline;
-    border: 1px solid white;
+    
 }
 .subtitle-front{
     color: white;
@@ -148,4 +147,135 @@ button{
         color: white;
     }
 }            
+#content2{
+    display: flex;
+    flex-direction: column ;
+    margin: 100px;
+}
 
+#Part-two{
+
+display: flex;
+background-color: white;
+flex-direction: column;
+}
+
+#col-text{
+    margin: 40px;
+
+    
+    &#col-text>p{
+
+        font-size: 36px;
+        font-weight: bolder;
+        font:#1F2937;
+    }
+}
+#col-items{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+}
+
+.boxes{
+    display: flex;
+    height:150px;
+    width: 150px;  
+    border: 4px solid  #3882f6;  
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.quote{
+    display: flex;
+    background-color: #e5e7eb;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.quote-text{
+    margin: 100px;
+}
+.quote-text>pre{
+
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+   
+}
+blockquote{
+   display: inline;
+   font-size: 30px;
+   font-weight: bold;
+    
+}
+.sign-up{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-self: center;
+}
+
+.sign-up-container
+{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    height:15vh;
+    width: 120vh;
+    background-color: #3882f6;
+    border-radius:20px;
+    margin: 5%;
+    flex-direction: column;
+    
+}
+
+.sign-up-items{                                                                 
+    margin-left:                                                                                                                                                                                                                                                                                20px;
+    
+}
+
+#text1{
+    color: #E5E7EB;
+    font-size: 1.5em;
+    font-weight: bold;
+}   
+
+#text2{
+    color: #E5E7EB;
+}
+.inside-signup{
+
+    display: flex;
+    position: relative;
+    align-items: left;
+    justify-content: center;
+    margin: 10px;
+}
+
+.sign-up-btn{
+    position: absolute;
+    right: 50px;
+   
+}                                                                                                                                                                                               
+   
+button{
+    border-color: white;
+}
+
+.footerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-div{
+    display: flex;
+    margin: 10px;
+}
+.foot-div>p{
+
+    color:white;
+}
