@@ -1,0 +1,151 @@
+body{
+    background-color: #1F2937;
+    font-family: Roboto;
+    
+}
+ul{
+    margin: 0%;
+}
+
+header{
+    position: relative;
+box-sizing: border-box;
+    display: flex;
+    border: 1px solid red;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(228, 210, 210);
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    
+}
+
+.content{
+
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(20, 151, 110);
+    padding: 12px;
+    
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.site-logo{
+    position: absolute;
+    display: inline;
+    border:1px solid rgb(134, 189, 71);
+    left: 0;
+    
+    
+}
+
+.link-component{
+    position: absolute;
+    display: block;
+    border:1px solid rgb(134, 189, 71);
+    right: 10%;
+    
+}
+
+#Icon-header{
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.link-component li{
+    
+
+    display: inline;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 10px;
+
+}
+
+.objects{
+    
+    display: flex;
+    padding: 5px;
+    border: 1px solid rgb(21, 108, 15);
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.columns{
+
+    display: flex;
+    border: 1px solid white;
+     flex-direction: column;
+     margin: 80px;
+    
+}
+
+.columns p.Hero-text{
+    display: inline;
+    color:white;
+    font-size: 3em;
+    font-weight:900;
+    
+}
+.colx{
+    display: inline;
+}
+.coly{
+
+    display: inline;
+    border: 1px solid white;
+}
+.subtitle-front{
+    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+button{
+   background-color: #3882f6;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color:   #3882f6;
+    
+    
+}
+#second{
+    justify-content: center;
+    align-items: center;                                                                                                            
+}
+
+.placeholder-img{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    display: flex   ;                                                       
+    justify-content: center;                                                                                                                                                                                                                                                                                            
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.293);
+    border-color:rgba(255, 255, 255, 0.293) ;
+    height: 240px;
+    width: 600px;
+
+    &.placeholder-img > p{
+        color: white;
+    }
+}            
+
